@@ -68,7 +68,7 @@ int main(){
 		break;
 	}
 	
-	//caso o número seja maior ou igual a 100 e não seja uma centena exata, o 'and' é adicionado
+	//caso o número seja maior que 100 e não seja uma centena exata, o 'and' é adicionado
 	if(num%100 == 0){
 		return 0;
 	}
@@ -170,7 +170,7 @@ int main(){
 		}
 	}
 	
-	//caso o número seja maior ou igual a 20 não seja uma dezena exata, o - é adicionado
+	//caso o número seja maior que 20 e não seja uma dezena exata, o - é adicionado
 	if(num%10 == 0){
 		return 0;
 	}
