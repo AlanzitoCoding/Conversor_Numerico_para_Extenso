@@ -9,8 +9,8 @@ int main(){
 	printf("Insert an integer number lesser or equals to 1000: ");
 	scanf("%d", &num);
 	
-	//retorna caso num seja maior que 1000
-	if(num > 1000){
+	//retorna caso num seja maior que 1000 ou menor que zero
+	if(num > 1000 || num < 0){
 		printf("Not a valid number.");
 		return 0;
 	}
