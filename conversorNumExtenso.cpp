@@ -6,7 +6,7 @@
 int main(){
 	int num, opt;
 	
-	printf("Insert an integer number lesser or equals to 1000: ");
+	printf("Insert an integer number between 0 and 1000: ");
 	scanf("%d", &num);
 	
 	//retorna caso num seja maior que 1000 ou menor que zero
